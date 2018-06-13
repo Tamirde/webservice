@@ -48,6 +48,12 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.render('github.hbs', {
+    pagetitle: "tamir",
+    title: "32432432432",
+  });
+});
 
 
 app.get('/bad', (req, res) => {
