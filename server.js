@@ -48,7 +48,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/', (req, res) => {
+app.get('/github', (req, res) => {
   res.render('github.hbs', {
     pagetitle: "tamir",
     title: "32432432432",
